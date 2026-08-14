@@ -2,12 +2,16 @@
 
 A static HTML/CSS/JS website for a fictional pet-sitting business. Built as a facsimile of sarahthesitter.com with the branding adapted to **Evelyn The Sitter** — *Loving Cats and Dogs since 1976*.
 
-## Quick Start
+## 🌐 Live Site
+
+**[https://dogthathunts.github.io/evelyn_the_sitter/](https://dogthathunts.github.io/evelyn_the_sitter/)**
+
+## Quick Start (Local)
 
 ```bash
 cd ~/Projects/evelyn_the_sitter
-# Open index.html in a browser
-# Or run: python3 -m http.server 8000
+# Run local server
+python3 -m http.server 8000
 # Then visit: http://localhost:8000
 ```
 
@@ -34,13 +38,17 @@ cd ~/Projects/evelyn_the_sitter
 - **pages/contact.html** — Contact form (mock)
 - **pages/join.html** — Join Our Team application (mock)
 
-## Features
+## ✅ Status: Complete
 
-- Responsive design (mobile-first)
-- Mock forms with client-side success messages
-- Clean, professional pet-care aesthetic
-- Proper SEO meta tags on all pages
-- Public domain images (candid pet-care action shots)
+**Deployed and live on GitHub Pages**
+
+- ✓ Responsive design (mobile-first)
+- ✓ Mock forms with client-side success messages
+- ✓ Clean, professional pet-care aesthetic
+- ✓ Proper SEO meta tags on all pages
+- ✓ 10 public domain images from Pexels (CC0 license)
+- ✓ All pages integrated with images
+- ✓ Git history with 10 commits
 
 ## Brand
 
@@ -70,15 +78,13 @@ cd ~/Projects/evelyn_the_sitter
 
 ## Deployment
 
-Ready for GitHub Pages or any static hosting:
+✅ **Already deployed to GitHub Pages**
 
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/evelyn_the_sitter.git
-git branch -M main
-git push -u origin main
-```
+**Repository:** https://github.com/DogThatHunts/evelyn_the_sitter
 
-Then enable GitHub Pages in repository settings (serve from `/` or `/docs`).
+**Live Site:** https://dogthathunts.github.io/evelyn_the_sitter/
+
+GitHub Pages is enabled and automatically deploys from the main branch. Any pushes to `main` will update the live site within 30-60 seconds.
 
 ## Development Notes
 

@@ -65,31 +65,39 @@ evelyn_the_sitter/
 
 ## Build Status
 
-### Completed
+### ✅ COMPLETED — Live on GitHub Pages
+
+**Live Site:** https://dogthathunts.github.io/evelyn_the_sitter/
+
 - [x] Folder structure & git initialization
 - [x] Content extraction from sarahthesitter.com
 - [x] Fictional team creation (4 members)
-- [x] WAYPOINT.md documentation
+- [x] CSS stylesheet (style.css) — warm, professional aesthetic
+- [x] index.html — homepage with all sections
+- [x] js/script.js — mobile menu, form handling, smooth scrolling
+- [x] All 6 subpages (team, services, faq, reviews, contact, join)
+- [x] 10 public domain images from Pexels (all JPEGs, CC0 license)
+- [x] GitHub repo created and pushed
+- [x] GitHub Pages enabled and deployed
+- [x] SEO meta tags on all pages
+- [x] Form validation & mock submit handlers
+- [x] Mobile responsiveness (tested via CSS)
+- [x] Documentation (WAYPOINT, RESUME, README)
+- [x] IMAGE_PLACEHOLDERS.md guide
 
-### In Progress
-- [ ] CSS stylesheet (style.css) — matching Sarah's design
-- [ ] index.html — homepage build
-- [ ] js/script.js — form handling + interactivity
-- [ ] pages/team.html
-- [ ] pages/services.html
-- [ ] pages/faq.html
-- [ ] pages/reviews.html
-- [ ] pages/contact.html
-- [ ] pages/join.html
-- [ ] Public domain image research & integration
-
-### To Do
-- [ ] Replace placeholder image paths with actual public domain candid pet-care photos
-- [ ] SEO meta tags audit & finalization
-- [ ] Form validation & UX polish
-- [ ] Mobile responsiveness review
-- [ ] GitHub repo setup & initial push
-- [ ] RESUME.md finalization
+### Final Commit Log
+```
+b818307 fix: replace broken image downloads with valid Pexels images
+9fa8e8e trigger: GitHub Pages rebuild with images
+5273773 feat: add service-specific images and integrate into services page
+e7d2ec4 feat: add public domain pet care placeholder images from Unsplash
+ed351f7 docs: add image placeholder guide with sourcing recommendations
+92a3104 docs: add image directory structure for public domain photos
+08b608c feat: add all subpages (team, services, contact, faq, reviews, join)
+1bd8971 feat: add core site files (css, js, homepage)
+1c6e01a docs: add project waypoint and resume prompt
+c05a36e Initial project setup
+```
 
 ## Technical Decisions
 
