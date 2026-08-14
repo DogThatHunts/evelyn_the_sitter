@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Evelyn The Sitter to schedule pet care services or request a free meet and greet.">
+  <meta property="og:title" content="Contact Us - Evelyn The Sitter">
+  <title>Contact Us - Evelyn The Sitter</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="../index.html" style="color: inherit;">Evelyn The Sitter</a></div>
+      <button class="nav-toggle" id="navToggle">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="team.html">The Team</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="faq.html">FAQs & Policies</a></li>
+        <li><a href="reviews.html">Client Reviews</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="join.html">Join Our Team!</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" style="padding: 3rem 2rem;">
+    <div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p class="hero-description">Schedule a free meet and greet or inquire about our services.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+        <!-- Contact Info -->
+        <div>
+          <h2>Contact Information</h2>
+          <p style="margin-bottom: 2rem;">Reach out to us using the form or contact us directly through one of these methods.</p>
+
+          <div style="background: #f9f7f4; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+            <h3 style="color: #8b6f47; margin-bottom: 1rem;">Hours of Operation</h3>
+            <p><strong>Monday - Friday:</strong> 7:00 AM - 7:00 PM</p>
+            <p><strong>Saturday - Sunday:</strong> 8:00 AM - 6:00 PM</p>
+            <p style="margin-top: 1rem; font-style: italic; color: #666;">Emergency services available for existing clients</p>
+          </div>
+
+          <div style="background: #f9f7f4; padding: 2rem; border-radius: 8px;">
+            <h3 style="color: #8b6f47; margin-bottom: 1rem;">What to Expect</h3>
+            <ul style="list-style: none; padding: 0;">
+              <li style="margin-bottom: 0.75rem;">✓ Response within 24 hours</li>
+              <li style="margin-bottom: 0.75rem;">✓ Free 30-minute meet & greet</li>
+              <li style="margin-bottom: 0.75rem;">✓ Personalized service plan</li>
+              <li style="margin-bottom: 0.75rem;">✓ Transparent pricing</li>
+              <li style="margin-bottom: 0.75rem;">✓ Time To Pet portal access</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form id="contactForm" name="contact">
+          <h2>Send us a Message</h2>
+
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="petname">Pet Name(s)</label>
+            <input type="text" id="petname" name="petname" placeholder="e.g., Max, Whiskers">
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Interest *</label>
+            <select id="service" name="service" required>
+              <option value="">-- Select a Service --</option>
+              <option value="dog-walk">Dog Walking</option>
+              <option value="cat-visits">Cat Visits</option>
+              <option value="adventures">Doggy Adventures</option>
+              <option value="vacation">Vacation Package</option>
+              <option value="specialty">Specialty Animal Care</option>
+              <option value="house-sitting">House Sitting</option>
+              <option value="inquiry">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required placeholder="Tell us about your pets and what you're looking for..."></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Time To Pet Info -->
+      <div style="background: #f9f7f4; padding: 2rem; border-radius: 8px; margin-top: 3rem; text-align: center;">
+        <h3>Client Portal Access</h3>
+        <p>All clients receive access to our <strong>Time To Pet</strong> portal for easy scheduling, tracking, and communication.</p>
+        <p style="margin-top: 1rem; font-style: italic;">Available on desktop and mobile app</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <footer-content>
+        <div class="footer-section"><h4>Evelyn The Sitter</h4><p>Professional pet care since 1976.</p></div>
+        <div class="footer-section"><h4>Quick Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="faq.html">FAQs</a></li></ul></div>
+        <div class="footer-section"><h4>Support</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="reviews.html">Reviews</a></li></ul></div>
+      </footer-content>
+      <div class="footer-copyright"><p>&copy; 2024 Evelyn The Sitter, LLC.</p></div>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
